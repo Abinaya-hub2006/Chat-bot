@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(135deg, #0f4c81, #3f51b5);
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container {
+    background: rgba(0, 0, 50, 0.4);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ff4c4c;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d43f3f;
+}
+
+#routeResult {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+iframe {
+    border-radius: 12px;
+    margin-top: 10px;
+}
